@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+    h1{
+        font-size: 2.1875rem;
+    }
+    h2{
+        font-size: 1.375rem;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .wrapper{
+        padding-top: 4.25rem;
+        padding-bottom: 3.25rem;
+    }
+}
+@media (max-width: 767px) {
+    h1{
+        font-size: 1.875rem;
+    }
+}
+@media (max-width:330px) {
+    
+}

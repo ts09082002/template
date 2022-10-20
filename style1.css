@@ -1,0 +1,207 @@
+@import 'animate.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #F5C332;
+    --secondary-color: #231E41;
+    --white-color: #fff;
+    --black-color: #1c1c1c;
+
+    --text-primary: #0a6fa1;
+    --text-white: #fff;
+    --text-color: rgb(5, 182, 52);
+    --text-grey: rgb(162, 9, 22);
+    --Sniglet-font: "Sniglet", cursive;
+    --bggradient: linear-gradient(to bottom, #06b2f7, #0aa2e9);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+.swiper {
+    width: 950px;
+}
+
+.swiper-button-next {
+    margin-top: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#sw {
+    display: block;
+    text-align: center;
+    margin-bottom: 6%;
+    padding-top: 4%;
+    color: #8d06a9;
+}
+
+h1 {
+    font-size: 3.125rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: rgb(1, 15, 58);
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-secondary);
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: var(--text-secondary);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(4, 27, 61);
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.main-btn {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0 .125rem .625rem -0.0625rem rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all.4s ease-out 0s;
+    border: 0.1875rem solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    height: 30px;
+    text-align: center;
+}
+
+.main-btn i {
+    margin-bottom: 20px;
+}
+
+.main-btn:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.wrapper {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+.text-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+    color: var(--text-primary);
+}
+
+.navigation-wrap {
+    position: relative;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-wrap .navbar-brand img {
+    width: 10rem;
+    height: 8rem;
+    margin-top: 4%;
+    color: linear-gradient(blue, green);
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+    margin-left: 10px;
+}
+
+.navigation-wrap .navbar-toggler:focus {
+    outline: none;
+    border: unset;
+    box-shadow: none;
+}
+
+.navigation-wrap .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    letter-spacing: 0.0625rem;
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+.contanier img {
+    width: 100%;
+    height: 500px;
+    margin-left: 4%;
+    margin-top: 3%;
+    animation: bounceInDown 3s linear;
+}
+
+.contanier #img1 {
+    width: 10%;
+    height: 200px;
+    margin-right: 100%;
+    overflow: hidden;
+    z-index: 5;
+    animation: bounceInUp 2s linear;
+    min-height: 1.7em;
+}
