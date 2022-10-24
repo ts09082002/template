@@ -777,3 +777,381 @@ footer .contanier .row img {
 footer .row {
     text-align: center;
 }
+
+@media (max-width:500px) {
+
+    .navigation-wrap {
+        position: relative;
+        width: 100%;
+        height: 10%;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #ass h1 {
+        font-size: 25px;
+        text-align: left;
+        font-family: serif;
+        padding-bottom: 6px;
+        padding-top: 40px;
+        padding-left: 90px;
+    }
+
+    #ass p {
+        font-size: 15px;
+        font-family: serif;
+        padding-left: 90px;
+        text-align: justify;
+    }
+
+    .contaniers .row #ass {
+        margin-top: 6%;
+        padding-right: 120px;
+    }
+
+    .detail {
+        display: block;
+        padding: 0;
+    }
+
+    .detail .box {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        border: 0px solid #16dbed;
+        text-align: center;
+    }
+
+
+    .contaniers img {
+        width: 35%;
+        height: 200px;
+        margin-top: 3%;
+        margin-left: 25%;
+        animation: bounceInDown 3s linear;
+        position: absolute;
+    }
+
+    .contaniers #img1 {
+        width: 12%;
+        height: 100px;
+        margin-right: 180%;
+        margin-top: 18%;
+        margin-left: 20%;
+        animation: bounceInUp 2s linear;
+        position: absolute;
+    }
+
+
+    .boxi {
+        display: block;
+        padding: 0;
+    }
+
+    .boxi .bor img {
+        padding-top: 30px;
+        width: 70%;
+        height: 300px;
+    }
+
+    .boxi .info {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+
+    .boxi .info img {
+        width: 80px;
+        height: 70px;
+        padding-left: 0px;
+    }
+
+    .boxi .info .g {
+        display: flex;
+    }
+
+
+    .boxi .info .h,
+    .hi {
+        width: 30%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .boxi .info h1 {
+        font-size: 28px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxis {
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .boxis .bors img {
+        width: 80%;
+        height: 200px;
+    }
+
+
+    .boxis .infos {
+        margin-left: 0px;
+        padding-right: 0px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .boxis .infos h1 {
+        font-size: 28px;
+        padding-top: 120px;
+        text-align: center;
+    }
+
+
+    .boxis .infos p {
+        font-size: 15px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxis .infos img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .boxis .infos .gs {
+        display: flex;
+    }
+
+    .boxis .infos .gs .hs,
+    .his {
+        padding: 0;
+    }
+
+    .qxz {
+        background-color: aliceblue;
+        margin-bottom: -100px;
+    }
+
+    .qxz .gf {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .ret {
+        display: block;
+    }
+
+    .ret .re img {
+        width: 100%;
+        height: 550px;
+        margin: 0;
+    }
+
+    .qxz h1,
+    p {
+        text-align: center;
+    }
+
+    .ret .sq {
+        padding-left: 0px;
+    }
+
+    .ret .sq .kl {
+        display: flex;
+        margin-bottom: 60px;
+        text-align: justify;
+        width: 80%;
+    }
+
+    .ret .sq .kl .co {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .ret .sq .kl .co p {
+        text-align: left;
+    }
+
+    .ret .sq .kl:hover {
+        border: 2px solid #80808096;
+        box-shadow: 2px #e9cb1f;
+        color: #04f490;
+    }
+
+    .ret .sq img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .qat {}
+
+    .jk {
+        background-color: #0921d4;
+        margin-top: 80px;
+        padding-bottom: 100px;
+        margin-bottom: -120px;
+    }
+
+    .mytabs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 32%;
+        margin-top: 70px;
+        width: 100%;
+        background-color: #0921d4;
+    }
+
+    .jk h1 {
+        font-size: 30px;
+        font-weight: 1000;
+        padding-top: 50px;
+        text-align: center;
+        color: #04f490;
+    }
+
+    .jk p {
+        color: #fff;
+        width: 50%;
+        margin-left: 95px;
+        text-align: center;
+    }
+
+
+    .mytabs input[type="radio"] {
+        display: none;
+    }
+
+    .mytabs label {
+        flex-wrap: wrap;
+        padding: 25px;
+        font-weight: bold;
+        margin-left: 20px;
+        border-bottom: none;
+    }
+
+    .mytabs label img {
+        width: 40px;
+        height: 30px;
+        padding-right: 8px;
+    }
+
+    #qat {
+        margin-left: 21%;
+    }
+
+    .mytabs label:hover {
+        background-color: #16dbed;
+        border-radius: 20px;
+    }
+
+    .mytabs .tab {
+        width: 550%;
+        background: #0921d4;
+        order: 1;
+        display: none;
+        padding-top: 50px;
+        border-top: 1px solid rgba(0, 0, 0, 0.585);
+    }
+
+    .mytabs .tab .bo {
+        display: block;
+        padding: 0;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+
+    .mytabs .tab .on {
+        margin-left: -280px;
+    }
+
+    .mytabs .tab .on h2 {
+        margin-left: 300px;
+        font-size: 30px;
+        text-align: left;
+        color: #e9cb1f;
+    }
+
+    .mytabs .tab .on p {
+        margin-left: 300px;
+        text-align: left;
+        color: aliceblue;
+    }
+
+    .mytabs .tab .on button {
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 400px;
+    }
+
+    .mytabs .tab .on button:hover {
+        background-color: black;
+        transition: 2s ease-in;
+        color: #fff;
+    }
+
+    .mytabs .tab img {
+        height: 300px;
+        width: 300px;
+    }
+
+
+    .mytabs input[type='radio']:checked+label+.tab {
+        display: block;
+    }
+
+    .mytabs input[type="radio"]:checked+label {
+        background: rgb(11, 224, 153);
+        border-radius: 20px;
+    }
+
+    .vid {
+        margin-top: 100px;
+        padding-top: 100px;
+        display: block;
+        padding-left: 30px;
+    }
+
+    .vid .xd video source {
+        width: 10%;
+        height: 100px;
+        padding-right: 30px;
+    }
+
+    .vid .iq {
+        text-align: left;
+        width: 80%;
+    }
+
+    .vid .iq .cd {
+        display: flex;
+    }
+
+    .vid .iq .cd .bh img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+
+    .vid .iq p {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .vid .iq h2 {
+        padding-bottom: 20px;
+    }
+
+    .vid .iq .bh img {
+        margin-right: 20px;
+    }
+
+}
