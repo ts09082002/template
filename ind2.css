@@ -1668,4 +1668,403 @@ footer .row {
         font-weight: 500;
     }
 
+
+    .sed {
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sed .heading {
+        display: inline-block;
+        position: relative;
+        color: #3b7cf5;
+        font-size: 20px;
+        padding: 60px;
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+    }
+
+
+    .sed .heading b {
+        color: rgb(2, 2, 2);
+    }
+
+    .wrapper {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .wrapper .contanier4 {
+        position: relative;
+        width: 350px;
+        height: 400px;
+        color: rgb(8, 226, 8);
+        background-color: rgb(9, 7, 7);
+        margin: 40px 10px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .wrapper .contanier4 .profile {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -10%;
+        width: 100%;
+        display: block;
+    }
+
+
+    .wrapper .contanier4 .profile .imgbox {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        border: 8px solid #070c0d;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .wrapper .contanier4 .profile .imgbox img {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.3s ease;
+    }
+
+    .wrapper .contanier4 .profile h2 {
+        padding: 5px 0;
+        text-transform: capitalize;
+        color: rgb(8, 0, 0);
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .wrapper .contanier4 .profile p {
+        margin-top: 50px;
+        color: #f2f927;
+        padding: 0 8px;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+
+    .wrapper .contanier4 .left {
+        font-size: 30px;
+        display: block;
+        text-align: left;
+        color: #3b7cf5;
+    }
+
+    .wrapper .contanier4 .right {
+        font-size: 30px;
+        display: block;
+        text-align: right;
+        color: #3b7cf5;
+    }
+
+    .wrapper .contanier4 .social {
+        width: 100%;
+    }
+
+    .sed .wrapper .contanier4 .social i {
+        font-size: 1.2em;
+        color: #070c0d;
+        padding: 8px;
+        background: rgba(6, 2, 2, 0.866);
+        border-radius: 4px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .wrapper .contanier4 .social i:hover {
+        background: #3b7cf5;
+    }
+
+    .counter_area {
+        padding: 0px;
+        background-image: linear-gradient(rgba(0, 0, 255, 0.685), rgba(0, 0, 255, 0.641)), url("bas.png");
+        background-size: cover;
+    }
+
+    .counter_area .red {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 120;
+    }
+
+    .counter_area hr {
+        color: #f1f1f1;
+        opacity: 0.8;
+        border-top: 1px solid #f1f1f1;
+    }
+
+    .single_counter {
+        position: relative;
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .single_counter img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .single_counter span {
+        font-size: 2rem;
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .single_counter::after {
+        position: absolute;
+        content: '';
+        height: 70%;
+        width: 0;
+        background-color: rgba(0, 0, 0, 0.145);
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        opacity: 0.15;
+    }
+
+    .single_counter:last-child::after {
+        display: none;
+    }
+
+    .counter_area .para {
+        display: block;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+    }
+
+    .counter_area .para .point p {
+        margin-top: 5%;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .counter_area .para img {
+        height: 300px;
+        width: 400px;
+        padding: 0px;
+        flex-wrap: wrap;
+        flex: 1 1 120;
+    }
+
+    .counter_area .para button {
+        padding: 10px 20px 10px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.43);
+        font-size: 20px;
+        transition: 2s ease;
+    }
+
+    .counter_area .para button:hover {
+        background: black;
+        color: #f1f1f1;
+    }
+
+
+    section .prize {
+        padding-top: 30px;
+    }
+
+    .contanier-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #xaw {
+        padding-bottom: 100px;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .price-table {
+        text-align: center;
+        overflow: hidden;
+        background: #fff;
+        box-sizing: border-box;
+        box-shadow: inset 0 0 40px rgba(0, 0, 0, .2), 0 20px 50px rgba(0, 0, 0, .5);
+        border-radius: 20px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+    .contaniersd #qw {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.863);
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ku {
+        display: block;
+    }
+
+    .ki {
+        width: 120%;
+        padding-left: 0px;
+    }
+
+
+    #Blog {
+        text-align: center;
+        margin-top: 5%;
+        padding-bottom: 8px;
+        padding-top: 4px;
+    }
+
+    #Blog h1 span {
+        color: #0fefff;
+    }
+
+    .post-contanier {
+        display: flex;
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        height: 30%;
+        flex-wrap: wrap;
+        flex: 1 1 120;
+    }
+
+    .post-contanier .owl-dot {
+        display: none;
+    }
+
+    .post-contanier .post {
+        width: 80%;
+        background-color: #fff;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+        height: 50%;
+        text-align: left;
+        justify-content: left;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .post-contanier .post .image img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .post-contanier .content {
+        justify-content: left;
+    }
+
+    .post-contanier .post .content .date {
+        font-size: 8px;
+        color: #666;
+    }
+
+    .post-contanier .post .content .titles {
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+        color: #333;
+        text-transform: capitalize;
+    }
+
+    .post-contanier .post .titles:hover {
+        text-decoration: underline;
+    }
+
+    .post-contanier .post .content p {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        text-align: left;
+        color: #666;
+    }
+
+    .post-contanier .post .content .link {
+        display: block;
+        color: tomato;
+        margin-top: 8px;
+        padding-bottom: 5px;
+        font-size: 8px;
+    }
+
+
+    .post-contanier .owl-Carousels {
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .post-contanier .post .owl-Carousels {
+        width: 20%;
+        background-color: #fff;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+        padding-bottom: 20px;
+        height: 30px;
+    }
+
+    .services-section {
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .inner-width {
+        max-width: 1500px;
+        margin: auto;
+        padding: 0 10px;
+    }
+
+    .services-section h1 strong {
+        color: #0a6fa1;
+    }
+
+    .service {
+        text-align: center;
+    }
+
+    .service-icon {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        background: none;
+        border-radius: 50%;
+        color: chartreuse;
+        font-size: 25px;
+    }
+
+    .sa {
+        padding: 0;
+    }
+
+    .landing_about_sections .gt {
+        margin-top: 5%;
+        padding: 0px;
+    }
+
+    .landing_about_sections .btns {
+        background-color: #fff;
+        color: #0921d4;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+
+
 }
